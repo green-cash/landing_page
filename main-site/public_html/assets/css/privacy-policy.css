@@ -1,0 +1,108 @@
+/* PRIVACY POLICY PAGE */
+
+/* General */
+:root {
+
+    --color-green: #0a2b1e;
+    --color-orange: #f28510;
+
+    --radius-default: 5px;
+    --section-padding-default: 30px;
+    --header-height: 54.52px;
+
+    --font-title: 'Signika', sans-serif;
+    --font-text: 'Rubik', sans-serif;
+}
+
+.container {
+
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.center {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo */
+.logo .img {
+    max-width: 400px;
+}
+
+/* Title */
+.title {
+    margin: 40px 0px;
+}
+
+
+h1 {
+
+    font-family: var(--font-title);
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.lang {
+
+    color: var(--color-orange);
+    text-transform: uppercase;
+    font-family: var(--font-text);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Topics */
+.topics {
+    font-family: var(--font-text);
+    color: #222;
+}
+
+.topics h2 {
+
+    font-family: var(--font-title);
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--color-green);
+    margin: 25px 0px;
+    text-align: left;
+}
+
+.topics p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.topics ul li {
+
+    font-size: 15px;
+    list-style: disc;
+    list-style-position: inside;
+    margin-bottom: 10px;
+}
+
+/* Privacy Policy Version */
+.version {
+
+    width: 100%;
+    font-family: var(--font-text);
+    font-size: 13px;
+    margin: 20px 15px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 400px) {
+
+    h1 {
+        font-size: 38px;
+    }
+}

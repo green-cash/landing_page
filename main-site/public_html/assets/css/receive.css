@@ -1,0 +1,79 @@
+/* PRIVACY POLICY PAGE */
+
+/* General */
+:root {
+
+    --color-green: #0a2b1e;
+    --color-orange: #f28510;
+
+    --radius-default: 5px;
+    --section-padding-default: 30px;
+    --header-height: 54.52px;
+
+    --font-title: 'Signika', sans-serif;
+    --font-text: 'Rubik', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+/* 
+body {
+    background-color: #0a2b1e;
+} */
+.center {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo */
+.logo .img {
+
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Title */
+.title {
+    margin: 40px 0px;
+}
+
+h1 {
+
+    font-family: var(--font-title);
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.msg {
+
+    color: var(--color-orange);
+    text-transform: uppercase;
+    font-family: var(--font-text);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.img-success {
+    width: 70px;
+    margin-top: 40px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 410px) {
+
+    /* Logo */
+    .logo .img {
+        max-width: 260px;
+    }
+}
